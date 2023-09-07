@@ -316,10 +316,14 @@ button.enroll-button {
  }
 
  .nav-auth-container {
-  padding: 20px;
+  padding: 10px;
   margin-right: 10px;
   column-gap: 10px;
-    
+
+  .navigation-link {
+    margin-right: 10px;
+  }
+
   button, .username, .username-icon {
     color: rgb(0, 0, 0);
   }
