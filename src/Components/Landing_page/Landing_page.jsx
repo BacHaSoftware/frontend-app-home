@@ -74,7 +74,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <AnimationOnScroll animateIn="animate__animated animate__fadeInLeft">
+      {/* <AnimationOnScroll animateIn="animate__animated animate__fadeInLeft"> */}
       <Container className="cards-continer section-2">
         <h2 className="course-title">Our courses</h2>
         <Row>
@@ -95,7 +95,7 @@ const LandingPage = () => {
           <></>
         )}
       </Container>
-      </AnimationOnScroll>
+      {/* </AnimationOnScroll> */}
       <AboutUS />
       <Footer />
     </main>
