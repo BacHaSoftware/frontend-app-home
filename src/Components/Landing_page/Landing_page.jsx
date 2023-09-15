@@ -61,6 +61,7 @@ const LandingPage = () => {
           </a>
           <Navigation/>
         </div>
+        <AnimationOnScroll animateIn="animate__animated animate__fadeInDown">
         <div className="wrapper-continer">
           <h1 className="section-1-text">Build your skills with our online courses</h1>
           <h5 className="section-1-description">
@@ -73,6 +74,7 @@ const LandingPage = () => {
 
           </div>
         </div>
+        </AnimationOnScroll>
       </div>
       <AnimationOnScroll animateIn="animate__animated animate__fadeInLeft">
       <Container className="cards-continer section-2">
@@ -96,7 +98,9 @@ const LandingPage = () => {
         )}
       </Container>
       </AnimationOnScroll>
+      <AnimationOnScroll animateIn="animate__animated animate__fadeIn">
       <AboutUS />
+      </AnimationOnScroll>
       <Footer />
     </main>
   );
