@@ -12,9 +12,6 @@ import Navigation from "../Navigation/navigation";
 import Footer, { messages as footerMessages } from '@edx/frontend-component-footer';
 import "./Landing-page.scss";
 
-import "animate.css/animate.min.css";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
-
 const URL_Courses = getConfig().LMS_BASE_URL + "/api/courses/v1/courses/";
 // const URL_Courses = "http://localhost:8000" + "/api/courses/v1/courses/";
 
@@ -74,7 +71,6 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      {/* <AnimationOnScroll animateIn="animate__animated animate__fadeInLeft"> */}
       <Container className="cards-continer section-2">
         <h2 className="course-title">Our courses</h2>
         <Row>
@@ -95,7 +91,6 @@ const LandingPage = () => {
           <></>
         )}
       </Container>
-      {/* </AnimationOnScroll> */}
       <AboutUS />
       <Footer />
     </main>
