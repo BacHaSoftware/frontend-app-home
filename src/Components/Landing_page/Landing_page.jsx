@@ -76,7 +76,7 @@ const LandingPage = () => {
         </div>
         </AnimationOnScroll>
       </div>
-      <AnimationOnScroll duration={3} animateIn="animate__animated animate__fadeInLeft">
+      <AnimationOnScroll duration={2} animateIn="animate__animated animate__fadeInLeft">
       <Container className="cards-continer section-2">
         <h2 className="course-title">Our courses</h2>
         <Row>
