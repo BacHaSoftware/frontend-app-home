@@ -76,9 +76,11 @@ const LandingPage = () => {
         </div>
         </AnimationOnScroll>
       </div>
-      <AnimationOnScroll duration={2} animateIn="animate__animated animate__fadeInLeft">
       <Container className="cards-continer section-2">
+        <AnimationOnScroll duration={1.5} animateIn="animate__animated animate__fadeInLeft">
         <h2 className="course-title">Our courses</h2>
+        </AnimationOnScroll>
+        <AnimationOnScroll duration={2} animateIn="animate__animated animate__fadeInLeft">
         <Row>
           {data?.slice(0, index).map((data) => (
             <Col className="course-card" key={data.id} sm={6} xs={12}>
@@ -86,7 +88,8 @@ const LandingPage = () => {
             </Col>
           ))}
         </Row>
-
+        </AnimationOnScroll>
+        <AnimationOnScroll duration={2.5} animateIn="animate__animated animate__fadeInLeft">
         {data?.length > LIMIT ? (
           showMore && (
             <div className="center">
@@ -96,8 +99,8 @@ const LandingPage = () => {
         ) : (
           <></>
         )}
+        </AnimationOnScroll>
       </Container>
-      </AnimationOnScroll>
       <AnimationOnScroll animateIn="animate__animated animate__fadeIn">
       <AboutUS />
       </AnimationOnScroll>
