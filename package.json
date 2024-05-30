@@ -34,9 +34,8 @@
     "url": "https://github.com/openedx/frontend-template-application/issues"
   },
   "dependencies": {
-    "@openedx/brand-openedx": "github:gymnasium/brand-openedx#gym.palm.4",
-    "@edx/frontend-component-footer": "github:gymnasium/frontend-component-footer#gym.palm.4",
-    "@edx/frontend-component-header": "github:gymnasium/frontend-component-header#gym.palm.4",
+    "@edx/frontend-component-footer": "github:BacHaSoftware/frontend-component-footer#main",
+    "@edx/frontend-component-header": "github:BacHaSoftware/frontend-component-header#main",
     "@edx/frontend-platform": "4.6.0",
     "@edx/paragon": "20.46.3",
     "@fortawesome/fontawesome-svg-core": "6.4.0",
@@ -44,6 +43,7 @@
     "@fortawesome/free-regular-svg-icons": "6.4.0",
     "@fortawesome/free-solid-svg-icons": "6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@openedx/brand-openedx": "^1.2.3",
     "animate.css": "^4.1.1",
     "axios": "^1.3.4",
     "babel-preset-es2015": "^6.24.1",
