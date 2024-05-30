@@ -12,11 +12,10 @@ import ReactDOM from 'react-dom';
 import { Route, Switch } from 'react-router-dom';
 
 import appMessages from './i18n';
-import LandingPage from './components/Landing';
+import LandingPage from './components/Landing/Landing';
+import NotFoundPage from './components/NotFoundPage';
 
 import './index.scss';
-import { NotFoundPage } from './components/NotFoundPage';
-// import About from "./Components/Course_About/Course_about";
 
 subscribe(APP_READY, () => {
   ReactDOM.render(

@@ -11,7 +11,7 @@ import Footer, { messages as footerMessages } from '@edx/frontend-component-foot
 import CourseCard from '../Card';
 import AboutUS from '../About';
 import Navigation from '../Navigation';
-import './index.scss';
+import './Landing.scss';
 
 import 'animate.css/animate.min.css';
 
