@@ -9,7 +9,7 @@ import { getConfig } from "@edx/frontend-platform";
 import CourseCard from "../Card/Card";
 import AboutUS from "../About-us/About";
 import Navigation from "../Navigation/navigation";
-import Footer, { messages as footerMessages } from '@edx/frontend-component-footer';
+// import Footer, { messages as footerMessages } from '@edx/frontend-component-footer';
 import "./Landing-page.scss";
 
 import "animate.css/animate.min.css";
@@ -104,7 +104,6 @@ const LandingPage = () => {
       <AnimationOnScroll animateIn="animate__animated animate__fadeIn">
       <AboutUS />
       </AnimationOnScroll>
-      <Footer />
     </main>
   );
 };
