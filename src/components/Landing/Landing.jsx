@@ -54,7 +54,7 @@ const LandingPage = () => {
       <div className="gray-continer-claim section-1">
         <div className="home-header">
           <a href="/dashboard" className="home-logo">
-            <img className="d-block" src="/theming/asset/images/logo.png" alt="Community Theme" />
+            <img className="d-block" src="https://bachasoftware.com/web/image/website/2/logo/Bac%20Ha%20Software%20Co.%2C%20Ltd.?unique=7bf7a33" alt="BHSoft" />
           </a>
           <Navigation />
         </div>
